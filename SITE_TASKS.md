@@ -16,7 +16,7 @@
 - [x] `curriculo.html`: versão nova atualizada com dados consolidados, selo Zenvia e textos expansíveis.
 - [x] `curriculo.html`: aumentar respiro entre blocos e renomear textos de candidatura para `Inscrições`.
 - [x] `curriculo.html`: revisar acentos e usar nomes formais das universidades.
-- [ ] `sobre.html`: decidir se vira página 100% comercial/sobre mim ou se fica como currículo alternativo. Por enquanto saiu dos menus públicos.
+- [x] `sobre.html`: virou página "Sobre mim" com traços de personalidade/qualidades (complementa o `curriculo.html`, que fica só com dados profissionais). Voltou pro menu público em `index.html`, `news.html` e `curriculo.html`.
 - [x] `luiz.html`: manter no git, mas tirar do menu público e bloquear acesso direto no Netlify.
 - [ ] `teste.html`: revisar o conteúdo gerado pelo Claude e decidir se vira página privada, rascunho ou descarte.
 
