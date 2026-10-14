@@ -1,5 +1,14 @@
 # Tasks do site Arrua
 
+## Hospedagem
+- [ ] Migrar do Netlify para o Vercel (plano Hobby, grátis). Motivo: o Netlify grátis só deixa ~20 publicações por mês e tira o site do ar quando estoura.
+  - [ ] Criar `.vercelignore` com a linha `luiz.html`. Isso substitui o `_redirects`, que só funciona no Netlify.
+  - [ ] vercel.com → entrar com o GitHub → Add New Project → importar `site-pessoal` → Deploy (sem configurar nada).
+  - [ ] Testar o endereço novo `.vercel.app`, incluindo se `luiz.html` dá "não encontrado".
+  - [ ] Atualizar o link do site no LinkedIn, no GitHub e no currículo.
+  - [ ] Apagar o site no Netlify e o arquivo `_redirects`.
+  - [ ] Depois de migrar: os itens abaixo que citam Netlify Functions viram Vercel Functions (pasta `api/`), e o login fica com o Supabase Auth.
+
 ## Base e navegação
 - [x] Padronizar menu de `index.html`, `news.html`, `sobre.html` e `curriculo.html`.
 - [x] Corrigir estrutura do `index.html` para manter `header`, menu e conteúdo dentro do `body`.
@@ -18,7 +27,7 @@
 - [x] `curriculo.html`: revisar acentos e usar nomes formais das universidades.
 - [x] `sobre.html`: virou página "Sobre mim" com traços de personalidade/qualidades (complementa o `curriculo.html`, que fica só com dados profissionais). Voltou pro menu público em `index.html`, `news.html` e `curriculo.html`.
 - [x] `luiz.html`: manter no git, mas tirar do menu público e bloquear acesso direto no Netlify.
-- [ ] `teste.html`: revisar o conteúdo gerado pelo Claude e decidir se vira página privada, rascunho ou descarte.
+- [ ] `teste.html`: revisar o conteúdo e decidir se vira página privada, rascunho ou descarte.
 
 ## APIs e dados
 - [ ] Trocar NewsAPI direta no front por Netlify Functions para proteger chaves e reduzir problemas de CORS.
