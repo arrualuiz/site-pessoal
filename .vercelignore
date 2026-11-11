@@ -4,3 +4,5 @@
 # Página escondida: na Netlify era o _redirects que respondia "não encontrado"
 luiz.html
 _redirects
+# Configuração do editor
+.vscode/

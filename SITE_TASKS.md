@@ -5,6 +5,7 @@
   - [x] `.vercelignore` com `luiz.html`, os `.md` e o `_redirects`. Ele substitui o `_redirects`, que só funciona no Netlify. ✅ 10/11
   - [x] Projeto `arrualuiz` na Vercel (conta ArruaDEV), ligado ao `master`: cada push no `master` publica. ✅ 10/11
   - [x] Testar o endereço novo (https://arrualuiz.vercel.app): as páginas abrem com o `master` e `luiz.html`, os `.md` e o `_redirects` dão "não encontrado". ✅ 10/11
+  - [x] A home estava quebrada desde o merge de 01/09 (22261bd, "Merge branch 'master' into curriculo-dev-hub"): ele juntou a home de janeiro com a de agosto e ficaram dois cabeçalhos, a coluna do meio vazia e um relógio parado. Como a Netlify travou no mesmo dia, nunca foi pro ar e ninguém viu. Voltei a home do fim do ramo (923fdba, com os ajustes de escala de 31/08) mais o link "Sobre mim" do menu. ✅ 10/11
   - [ ] Atualizar o link do site no LinkedIn, no GitHub (selo no `arrualuiz/README.md`) e no currículo.
   - [ ] Depois de 28/11 (quando os créditos do Netlify voltam): trocar o site do Netlify por um redirecionamento para o endereço novo e, quando nada mais apontar pra lá, apagar o site no Netlify e o arquivo `_redirects`.
   - [ ] Depois de migrar: os itens abaixo que citam Netlify Functions viram Vercel Functions (pasta `api/`), e o login fica com o Supabase Auth.
