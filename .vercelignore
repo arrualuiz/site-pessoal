@@ -1,0 +1,6 @@
+# Fica no GitHub, mas não vai para o site no ar
+# Arquivos de trabalho
+*.md
+# Página escondida: na Netlify era o _redirects que respondia "não encontrado"
+luiz.html
+_redirects
