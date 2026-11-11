@@ -4,7 +4,7 @@
 - [ ] Migrar do Netlify para o Vercel (plano Hobby, grátis). Motivo: o Netlify grátis só deixa ~20 publicações por mês e travou em 01/09; desde então o que estava no ar era a versão de 31/08 (o ramo `curriculo-dev-hub`, que nem existe mais). Na Vercel o site divide a cota com o site do casamento, e sobra: o casamento usou 108 MB de 100 GB em 30 dias.
   - [x] `.vercelignore` com `luiz.html`, os `.md` e o `_redirects`. Ele substitui o `_redirects`, que só funciona no Netlify. ✅ 10/11
   - [x] Projeto `arrualuiz` na Vercel (conta ArruaDEV), ligado ao `master`: cada push no `master` publica. ✅ 10/11
-  - [ ] Testar o endereço novo (https://arrualuiz.vercel.app), incluindo se `luiz.html` dá "não encontrado".
+  - [x] Testar o endereço novo (https://arrualuiz.vercel.app): as páginas abrem com o `master` e `luiz.html`, os `.md` e o `_redirects` dão "não encontrado". ✅ 10/11
   - [ ] Atualizar o link do site no LinkedIn, no GitHub (selo no `arrualuiz/README.md`) e no currículo.
   - [ ] Depois de 28/11 (quando os créditos do Netlify voltam): trocar o site do Netlify por um redirecionamento para o endereço novo e, quando nada mais apontar pra lá, apagar o site no Netlify e o arquivo `_redirects`.
   - [ ] Depois de migrar: os itens abaixo que citam Netlify Functions viram Vercel Functions (pasta `api/`), e o login fica com o Supabase Auth.
